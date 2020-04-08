@@ -21,7 +21,7 @@ Gem::Specification.new do |s|
   s.add_dependency 'spree_backend', spree_version
   s.add_dependency 'spree_frontend', spree_version
   
-  s.add_dependency 'acts-as-taggable-on', '~> 3.1'  
+  s.add_dependency 'acts-as-taggable-on'
 
   s.add_development_dependency 'capybara', '~> 2.2.1'
   s.add_development_dependency 'coffee-rails', '~> 4.0.0'
